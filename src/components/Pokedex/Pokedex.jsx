@@ -6,8 +6,8 @@ function Pokedex(params) {
     return(
         <div className="pokedex-wrapper">
          <h1 id="pokemon-header">Pokedex</h1>
-         <Search/>
-         <PokemonList/> 
+         {/* <Search/> */}
+         <PokemonList/>
         </div>
     )
 }

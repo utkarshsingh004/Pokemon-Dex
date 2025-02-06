@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import './pokemon.css';
+import './Pokemon.css';
 
 function Pokemon({ name, image, types }) {
     const navigate = useNavigate();
